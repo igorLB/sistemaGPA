@@ -1,12 +1,14 @@
 <?php 
 
-//namespace App\controller;
+namespace App\controller;
 
-//use App\classes;
+use App\classes\Aula;
+
+require_once "../../vendor/autoload.php";
 
 if( isset($_GET['action'])){
 	
-	require_once "../classes/Aula.php";
+	//require_once "../classes/Aula.php";
 	
 	$aula = new Aula;
 	

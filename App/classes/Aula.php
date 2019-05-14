@@ -1,12 +1,9 @@
 <?php
 
-//namespace App\classes;
+namespace App\classes;
 
-//use PDO;
+use PDO;
 
-/**
- * 
- */
 class Aula
 {
 	
@@ -27,10 +24,6 @@ class Aula
 		}
 	}
 	
-
-	public function oi(){
-		return "olaaa";
-	}
 
 
 	public function create( $dadosJson ){
